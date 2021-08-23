@@ -7,6 +7,8 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@headlessui/vue": "^1.4.0",
+    "@heroicons/vue": "^1.0.4",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-vue": "^7.16.0",
     "prettier": "^2.3.2",
