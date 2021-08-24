@@ -1,7 +1,7 @@
 <template>
     <div class="mt-4">
         <button
-            class="justify-center flex hover:shadow-lg"
+            class="button"
             :class="{
                 'bg-dark-blue focus:bg-blue': color == 'primary',
                 'bg-green focus:bg-dark-green': color == 'secondary',
@@ -49,4 +49,8 @@ export default defineComponent({
 })
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.button {
+    background-color: $creamyellow;
+}
+</style>

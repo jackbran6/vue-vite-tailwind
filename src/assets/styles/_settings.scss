@@ -9,17 +9,28 @@ $xlarge-min: 1440px;
 $xxlarge-min: 1920px;
 
 // 02. Colours
+$white: #fff;
+$black: #333;
+$creamyellow: #ffe08c;
+$cyan: #42bdac;
+$red: #ef554e;
+$darkblue: #00283a;
+$darkgreen: #00675e;
+$orange: #f58a1e;
+$blue: #214587;
+$purple: #722c7d;
 $yellow: #ffd068;
-$red: #f56d4c;
-$blue: #8bd1d0;
+
+// $red: #f56d4c;
+// $blue: #8bd1d0;
 $grey--dark: #2e3649;
 $grey: #485570;
 $grey--light: #9599a2;
 $grey--transparent: rgba(0, 7, 18, 0.6);
-$white: #dfe4e6;
+// $white: #dfe4e6;
 $bright-white: #f6f7f9;
-$black: #0a0a0a;
-$white: #fff;
+// $black: #0a0a0a;
+// $white: #fff;
 
 $body-background-color: $bright-white;
 $default-font-color: $grey;
