@@ -8,19 +8,18 @@
         <styled-button title="small button" color="yellow" size="small" />
         <styled-button title="medium button" color="green" size="medium" />
         <styled-button title="large button" color="blue" size="large" />
-        <icon-button title="Medium button" icon="accept" />
-        <icon-button title="Medium button" icon="decline" />
+        <input-text-field :labelName="'Testing'" />
     </div>
 </template>
 
 <script lang="ts">
 import { ref, defineComponent } from 'vue'
 import IconButton from '../components/icon-button/IconButton.vue'
+import InputTextField from '../components/input-text-field/InputTextField.vue'
 import StyledButton from '../components/styled-button/StyledButton.vue'
 
-import TextInput from '../components/text-input/TextInput.vue'
 export default defineComponent({
-    components: { TextInput, StyledButton, IconButton },
+    components: { StyledButton, IconButton, InputTextField },
     name: 'Home',
 })
 </script>
