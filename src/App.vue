@@ -14,3 +14,7 @@ export default defineComponent({
     },
 })
 </script>
+
+<style lang="scss">
+@include type(14px, 18px);
+</style>

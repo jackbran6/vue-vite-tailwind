@@ -23,9 +23,12 @@
                     bg-gray-2
                     px-5
                     py-2
+                    border-4 border-gray-11
+                    focus:border-green focus:border-b-4
+                    flex-1
                     sm:text-sm
-                    border-b-4 border-gray-11
-                    focus:border-green
+                    appearance-none
+                    outline-none
                 "
                 placeholder="Place holder text"
             />
