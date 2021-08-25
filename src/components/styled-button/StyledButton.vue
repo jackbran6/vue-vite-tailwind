@@ -12,9 +12,8 @@ import { defineComponent } from '@vue/runtime-core'
 export default defineComponent({
     name: 'StyledButton',
     props: {
-        title: { requiured: true, type: String },
+        title: { required: true, type: String },
         color: {
-            requiured: false,
             type: String,
             default: 'blue',
             validator: (value) => {
@@ -22,7 +21,6 @@ export default defineComponent({
             },
         },
         size: {
-            requiured: false,
             type: String,
             default: 'medium',
             validator: (value) => {
